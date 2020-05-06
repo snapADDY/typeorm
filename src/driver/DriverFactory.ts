@@ -5,7 +5,7 @@ import {SqlServerDriver} from "./sqlserver/SqlServerDriver";
 import {OracleDriver} from "./oracle/OracleDriver";
 import {SqliteDriver} from "./sqlite/SqliteDriver";
 import {CordovaDriver} from "./cordova/CordovaDriver";
-import {ReactNativeDriver} from "./react-native/ReactNativeDriver";
+// import {ReactNativeDriver} from "./react-native/ReactNativeDriver";
 import {NativescriptDriver} from "./nativescript/NativescriptDriver";
 import {SqljsDriver} from "./sqljs/SqljsDriver";
 import {MysqlDriver} from "./mysql/MysqlDriver";
@@ -43,8 +43,8 @@ export class DriverFactory {
                 return new CordovaDriver(connection);
             case "nativescript":
                 return new NativescriptDriver(connection);
-            case "react-native":
-                return new ReactNativeDriver(connection);
+            // case "react-native":
+            //    return new ReactNativeDriver(connection);
             case "sqljs":
                 return new SqljsDriver(connection);
             case "oracle":
