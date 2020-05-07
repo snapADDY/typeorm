@@ -1,6 +1,6 @@
 # Changes
 
-- Fixed: https://github.com/typeorm/typeorm/issues/2158
+- Removed the react native SQLite storage (https://github.com/typeorm/typeorm/issues/2158)
 
 # Typeorm
 
